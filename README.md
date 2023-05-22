@@ -1,19 +1,8 @@
-# co37a4d16b85a8c158f370344
+# The Boxes Challenge
 
-Quick start:
+## About the Project
 
-```
-$ yarn # npm install
-$ yarn build # npm run build
-````
-
-## Development
-
-Run Webpack in watch-mode to continually compile the JavaScript as you work:
-
-```
-$ yarn watch # npm run watch
-```
+This is a program that involves <b>boxes</b> and it is <b>responsive!</b>. Not much will be disclosed about this project because it takes the 'it's better to try out first in order to find out' route. <b>Just click a box, click it again or click another one!</b> Alright, I've said enough about the project. It's time for you to sample it...  :) 
 
 ## About Scrimba
 
