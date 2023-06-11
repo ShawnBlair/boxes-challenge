@@ -21,7 +21,8 @@ export default function App(){
             
     )    
     return(
-        <main>{bxes}</main>        
+      <main> hi </main>
+        // <main>{bxes}</main>        
     )    
 }
 
