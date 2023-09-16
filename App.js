@@ -7,8 +7,8 @@ export default function App(){
     const [bx, setBx] = React.useState(boxes)
     
     function toggle(id){
-        setBx(bx=> {
-            return bx.map(box=> box.id === id ?{...box,on: !box.on}: box)})
+        setBx((bx)=> {
+            return bx.map(box => { return box.id === id ? {...box, on: !box.on} : box})})
     }   
      
     const bxes =  bx.map(box =>    
