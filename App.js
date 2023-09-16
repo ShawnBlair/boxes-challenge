@@ -8,7 +8,8 @@ export default function App(){
     
     function toggle(id){
         setBx((bx)=> {
-            return bx.map((box) =>  box.id === id ? { ...box, on: !box.on } : box)})
+            return bx.map((box) =>  box.id === id ? {...box , on: !box.on } : box)})
+           //return bx.map((box) =>  box.id !== id ? box : { ...box, on: !box.on })})
     }   
      
     const bxes =  bx.map(box =>    
